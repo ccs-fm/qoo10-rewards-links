@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Opener</title>
+    <script>
+        function openLinks() {
+            var links = [
+                "https://special.qoo10.sg/DynamicAD/10888/",
+                "https://special.qoo10.sg/DynamicAD/11371/",
+                "https://special.qoo10.sg/DynamicAD/11373/",
+                "https://special.qoo10.sg/DynamicAD/11374/",
+                "https://special.qoo10.sg/DynamicAD/10887/",
+                "https://special.qoo10.sg/DynamicAD/11153/",
+                "https://special.qoo10.sg/DynamicAD/11714/",
+                "https://special.qoo10.sg/DynamicAD/8449/",
+                "https://special.qoo10.sg/DynamicAD/12102/",
+                "https://special.qoo10.sg/DynamicAD/11980/"
+            ];
+
+            links.forEach(function(link) {
+                window.open(link, '_blank');
+            });
+        }
+    </script>
+</head>
+<body>
+    <button onclick="openLinks()">Open Links</button>
+</body>
+</html>
